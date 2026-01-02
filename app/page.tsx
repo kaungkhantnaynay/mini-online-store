@@ -3,6 +3,7 @@ import CustomCarousel from "./components/CustomCarousel";
 import { Category } from "@mui/icons-material";
 import Categories from "./components/Categories";
 import Products from "./components/Products";
+import Quantity from "./components/Quantity";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <CustomCarousel/>
       <Categories/>
       <Products/>
+      <Quantity/>
     </>
   );
 }
